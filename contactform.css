@@ -1,0 +1,44 @@
+/*Import the fonts used*/
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+
+/*Basic restart*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Custom things*/
+:root{
+    --dark-color: #000000;
+    --purple-solid: #350a4f;
+    --purple-transparent: rgba(53, 10, 79, .7);
+    --purple-transparent-alt: rgba(53, 10, 79, .5);
+    --purple-light: #8f50fb77;
+    --green-solid: #2cfa3dd8;
+    --gradient-color: linear-gradient(to left, var(--green-solid), var(--purple-light));
+    --gradient-color-alt: linear-gradient(to left, var(--purple-light), var(--green-solid));
+}
+
+/*Contact form designs*/
+label{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+}
+
+button{
+    padding: .2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: small;
+    font-weight: bolder;
+    margin-left: .5rem;
+    color: red;
+}

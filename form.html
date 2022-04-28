@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+        <title>BMS Online Form</title>
+        <link rel="stylesheet" href="form.css" /> 
+    </head>
+
+    <body>
+        <h1>BMS Online Form:</h1><br> 
+        <p>
+            Before you secure your place, we will need you to
+            answer a group of questions so that we can store 
+            information about your booking in our database;
+            keep track of the data.
+        </p><br>
+        <p>
+            Please make sure you answer all of the questions in 
+            this form, just so that we have all the data we need 
+            about your reservation.
+        </p><br>
+
+        <form action="formresults.html" method="POST"> 
+            <div>
+            <label for="name">1) What is your full name? *Don't forget your middle name</label> 
+            <input type="text" name="username" id="name" required> 
+            </div><br>
+        
+            <div>
+            <label for="email">2) What is your personal email address?</label>
+            <input type="email" name="email" id="email" required>
+            </div><br>
+
+            <div>
+            <label for="phoneCode">3) What is your phone number?</label>
+            <input type="tel" name="phone" id="phoneCode" maxlength="11" required>
+            </div><br>
+
+            <label for="information">4) What are you going to use this space for?</label>
+            <textarea id="text" name="reason"></textarea><br><br> 
+    
+            <div>
+            <label for="date">5) When do you want to use this space?</label>
+            <input type="date" name="appointment" id="date" max="2022-12-24" required>
+    
+            <label for="time"></label>
+            <input type="time" name="hour" id="time" required>
+            </div><br>
+    
+            <div>
+            <label for="duration">6) How long do you want this available space for?
+            *You can use our facility for up to an hour (maximum)</label>
+            <input type="text" name="duration" id="duration" required>
+            </div><br> 
+    
+            <div>
+            <label for="number">7) How many people are going to be attending this space?</label>
+            <input type="number" name="amount" id="number">
+            </div><br>
+    
+            <label for="text">8) Is there anything you would like us to do?</label>
+            <textarea type="text" name="help" id="text" required></textarea><br><br>
+            
+            <button type="reset">Reset</button> 
+            <button type="submit">Submit</button> 
+            
+        </form>
+
+    </body>
+
+</html>
+
+

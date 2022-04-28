@@ -1,0 +1,28 @@
+/*Global designs*/
+html{
+    background-color: rgb(183, 248, 183);
+}
+
+/*Form results designs*/
+p{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.go-back-button{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.paypal-button{
+    padding-left: .5rem;
+    text-align: left;
+}
